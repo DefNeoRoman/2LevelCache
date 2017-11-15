@@ -24,3 +24,5 @@ the cache strategies and max sizes of level  1 and 2."
 я могу обращаться по id и получать нужный мне объект из хранилища
 
 могу выполнять стандартные crud операции (реализовано через Spring Data Jpa)
+
+Архив можно скачать c GitHub или через maven clean install можно получить jar файл
