@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "simpledata")
-public class SimpleStringData implements Serializable {
+public class SimpleData implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,10 +13,10 @@ public class SimpleStringData implements Serializable {
 
     private String description;
 
-    public SimpleStringData() {
+    public SimpleData() {
     }
 
-    public SimpleStringData(String description) {
+    public SimpleData(String description) {
         this.description = description;
     }
 
@@ -38,7 +38,7 @@ public class SimpleStringData implements Serializable {
 
     @Override
     public String toString() {
-        return "SimpleStringData{" +
+        return "SimpleData{" +
                 "id=" + id +
                 ", description='" + description + '\'' +
                 '}';
