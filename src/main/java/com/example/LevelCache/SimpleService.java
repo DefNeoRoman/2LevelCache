@@ -12,7 +12,6 @@ public class SimpleService {
     SimpleDataRepository repository;
 
     public void fillRepository(){
-
         repository.save(new SimpleData("ffg"));
         repository.save(new SimpleData("gfhhfgh"));
         repository.save(new SimpleData("dgffdg"));
